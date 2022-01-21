@@ -2,22 +2,18 @@ version: '3.8'
 
 services:
   postgres:
-    container_name: postgres
     image: postgres:12
     env_file:
       - .development.env
     environment:
       PG_DATA: /var/lib/postgresql/data
-    ports:
-      - '5432:5432'
     expose:
       - '5432'
     volumes:
       - pgdata:/var/lib/postgresql/data
-    restart: always
+    restart: 'no'
 
   backend:
-    container_name: backend
     image: backend
     build:
       context: .
@@ -25,16 +21,15 @@ services:
     env_file:
       - .development.env
     volumes:
-      - .:/app
-      - /app/node_modules
+      - ./app:/app
     ports:
-      - '5111:5111'
+      - '3000:3000'
     command: npm run start:prod
     depends_on:
       - postgres
     expose:
-      - '5111'
-    restart: always
+      - '3000'
+    restart: 'no'
 
 volumes:
   pgdata:
