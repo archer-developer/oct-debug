@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7efed38-131b-48c7-ba97-efeab3e90eb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.production.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/nginx/backend.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/nginx.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/vhost.d" beforeDir="false" afterPath="$PROJECT_DIR$/.development.env" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +29,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.google.cloudcode.ide_session_index" value="20220121_0001" />
+    <property name="com.google.cloudcode.ide_session_index" value="20220121_0002" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="16.13.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.11.21" />
@@ -61,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642752837790</updated>
-      <workItem from="1642752840693" duration="3345000" />
+      <workItem from="1642752840693" duration="3997000" />
     </task>
     <servers />
   </component>
